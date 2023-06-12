@@ -1,6 +1,11 @@
 # GPS TripMeter
 A tripmeter that uses GPS to calculate distance traveled and current speed.
+
+It is possible to reset the trip by pressing the button
+
 The data are shown on a 1.8" TFT display
+
+![TripMeter](tripMeter_gif.gif)
 
 ## Motivation
 
