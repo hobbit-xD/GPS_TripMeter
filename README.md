@@ -1,6 +1,10 @@
 # GPS TripMeter
+A tripmeter that uses GPS to calculate distance traveled and current speed.
+The data are shown on a 1.8" TFT display
 
 ## Motivation
+
+Need to calculate the distance traveled in order to follow road notes.
 
 ## Display wiring
 
