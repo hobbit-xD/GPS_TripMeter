@@ -8,6 +8,7 @@ The data are shown on a 1.8" TFT display
 ![TripMeter_tft](tripMeter_gif.gif)
 
 Or on a 8 digit display.
+
 ![TripMeter_digit](8digit.png)
 
 ## Motivation
