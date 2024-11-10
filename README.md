@@ -3,15 +3,18 @@ A tripmeter that uses GPS to calculate distance traveled and current speed.
 
 It is possible to reset the trip by pressing the button
 
-The data are shown on a 1.8" TFT display
+The data are shown on a 1.8" TFT display 
 
-![TripMeter](tripMeter_gif.gif)
+![TripMeter_tft](tripMeter_gif.gif)
+
+Or on a 8 digit display.
+![TripMeter_digit](8digit.png)
 
 ## Motivation
 
 Need to calculate the distance traveled in order to follow road notes.
 
-## Display wiring
+## 1.8 TFT Display wiring
 
 | Dsiplay | Arduino Nano |
 |---------|--------------|
@@ -23,6 +26,15 @@ Need to calculate the distance traveled in order to follow road notes.
 | SDA     | D11          |
 | SCK     | D13          |
 | LED     | 3.3V         |
+
+## 8 Digit Display wiring
+
+| Dsiplay | Arduino Nano |
+|---------|--------------|
+| VCC     | 5V           |
+| GND     | GND          |
+| DIO     | D10          |
+| CLK     | D9           |
 
 
 ## GPS Wiring
